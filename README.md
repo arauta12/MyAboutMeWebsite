@@ -8,3 +8,4 @@
 7. Your page should have styling. You can generally style however you like, but it should look professional.
     1. You MUST change the font to a non-default font. Find one on Google fonts (https://fonts.google.com/) that you like (Google fonts has some very good ones!).
 8. **Publish this as a website to GitHub pages (do some Googling to find out how to do this). Paste the link to your website in the spreadsheet.**
+(**AKA: https://github.com/arauta12/MyAboutMeWebsite/settings/pages**)
