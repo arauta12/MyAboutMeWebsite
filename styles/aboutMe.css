@@ -43,6 +43,10 @@ strong {
     background-color: white;
 }
 
+.p-container strong {
+    transition: color 0.15s;
+}
+
 .p-container:hover strong {
     color: darkgoldenrod;
 }
