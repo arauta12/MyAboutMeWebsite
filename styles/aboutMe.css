@@ -1,0 +1,87 @@
+:root {
+    --first-grad: rgb(4, 0, 255);
+    --cont_color: rgb(1, 29, 106);
+    --button-color: rgb(70, 70, 185);
+}
+
+* {
+    background-color: lightblue;
+    font-family: Roboto;
+}
+
+header {
+    text-align: center;
+}
+u {
+    background: none;
+}
+
+h1 {
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    background-image: linear-gradient(
+        var(--first-grad), 
+        var(--cont_color));
+}
+
+img {
+    background-color: var(--cont_color);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+strong {
+    background: none;
+}
+
+.p-container {
+    border-radius: 10px;
+    padding: 15px;
+    cursor: default;
+    background-color: white;
+}
+
+.p-container:hover strong {
+    color: darkgoldenrod;
+}
+
+#intro, #statement, #final {
+    margin: 10px;
+    font-family: Roboto;
+}
+
+nav {
+    text-align: center;
+    margin: 10px;
+}
+
+.button-container {
+    text-align: center;
+}
+
+.home-button {
+    font-family: Roboto;
+    font-size: 40px;
+    background-color: var(--button-color);
+    color: white;
+    padding: 10px;
+    padding-left: 14px;
+    padding-right: 14px;
+    margin: 10px;
+    border-color: var(--button-color);
+    border-style: solid;
+    border-radius: 10px;
+    cursor: pointer;
+
+    transition: opacity 0.15s;
+}
+
+.home-button:hover {
+    opacity: 0.85;
+}
+
+.home-button:active {
+    opacity: 0.7;
+}

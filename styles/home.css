@@ -1,0 +1,63 @@
+:root {
+    --first-grad: rgb(4, 0, 255);
+    --cont_color: rgb(1, 29, 106);
+    --button-color: rgb(70, 70, 185);
+}
+
+* {
+    background-color: lightblue;
+    text-align: center;
+}
+
+header {
+    align-content: center;
+    border-radius: 5px;
+    background-image: linear-gradient(
+        var(--first-grad), 
+        var(--cont_color));
+    cursor: default;
+}
+
+h1 {
+    font-family: Roboto;
+    font-size: 50px;
+    background: none;
+    color: white;
+}
+
+u {
+    background: none;
+}
+
+.uf-img {
+    background-color: var(--cont_color);
+    align-content: center;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.about-button {
+    font-family: Roboto;
+    font-size: 40px;
+    background-color: var(--button-color);
+    color: white;
+    padding: 10px;
+    padding-left: 14px;
+    padding-right: 14px;
+    margin: 10px;
+    border-color: var(--button-color);
+    border-style: solid;
+    border-radius: 10px;
+    cursor: pointer;
+
+    transition: opacity 0.15s;
+}
+
+.about-button:hover {
+    opacity: 0.85;
+}
+
+.about-button:active {
+    opacity: 0.7;
+}
