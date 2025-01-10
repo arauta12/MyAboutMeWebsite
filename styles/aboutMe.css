@@ -9,9 +9,15 @@
     font-family: Roboto;
 }
 
+body {
+    max-width: 1000px;
+    margin: 0px auto;
+}
+
 header {
     text-align: center;
 }
+
 u {
     background: none;
 }

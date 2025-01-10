@@ -7,6 +7,12 @@
 * {
     background-color: lightblue;
     text-align: center;
+
+    margin: 0 auto;
+}
+
+body {
+    max-width: 1000px;
 }
 
 header {
@@ -15,12 +21,12 @@ header {
     background-image: linear-gradient(
         var(--first-grad), 
         var(--cont_color));
-    cursor: default;
 }
 
 h1 {
     font-family: Roboto;
     font-size: 50px;
+    padding: 10px 0;
     background: none;
     color: white;
 }
